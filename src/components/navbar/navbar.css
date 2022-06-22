@@ -1,0 +1,46 @@
+.fitness__navbar {
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.fitness__navbar-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fitness__navbar-logo img {
+    width: 100%;
+}
+
+.fitness__navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: auto;
+    padding-left: 65px;
+}
+
+.navbar-links {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e1133;
+    line-height: 45px;
+}
+
+.fitness__navbar_btns {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: 1;
+}
+
+.fitness__navbar-login-btn {
+    color: #0e1133;
+    font-size: 15px;
+    font-weight: 500;
+}
