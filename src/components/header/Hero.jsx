@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import HeroImg from '../../assets/hero-thumb-1.png'
+import HeroImg from '../../assets/w1.png'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-left">
           <div className="hero-title">
             <h3>Welcome To Fitness</h3>
-            <h1>Manage it all, inthis <br/> all new system</h1>
+            <h1>Work Hard To<br/> Get a Better Life</h1>
           </div>
           <div className="hero-text">
             <p>Hanky panky lavatory up the duff jolly good cack brolly is chinwag <br/>zonked happy days sloshed.</p>

@@ -64,19 +64,18 @@ ul {
 }
 
 .container {
-    max-width: 1200px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
         max-width: 1200px;
     }
 }
 
-@media (min-width: 992px) {
+
+/* @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }

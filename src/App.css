@@ -30,3 +30,20 @@
     background-color: #2b70fa;
     position: relative;
 }
+
+.fitnss-title {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+}

@@ -1,0 +1,44 @@
+.exercises-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.exericse-title {
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.exericse-title h3 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.exercise-card {
+    visibility: visible;
+    animation-duration: 3000ms;
+    animation-delay: 200ms;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    margin-top: 30px;
+    border: 1px solid #f8452d;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.exercise-thumnail {
+    max-width: 100%;
+}
+
+.exercise-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}

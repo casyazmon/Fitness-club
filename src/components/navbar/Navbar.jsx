@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './navbar.css'
 
 import FitnessLogo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+    useEffect(() => {
+        window.addEventListener('scroll', isSticky);
+        return () => {
+            window.removeEventListener('scroll', isSticky);
+        };
+    });
+    
+               
+    /* Method that will fix header after a specific scrollable */
+    const isSticky = (e) => {
+        const header = document.querySelector('.fitness-navbar');
+        const scrollTop = window.scrollY;
+        scrollTop >= 250 ? header.classList.add('fitness__navbar-sticky') : header.classList.remove('fitness__navbar-sticky');
+    };
   return (
-    <div className='fitness__navbar'>
+    <div className=' fitness-navbar'>
         <div className="container">
             <div className="fitness__navbar-container">
                 <div className="fitness__navbar-logo">
