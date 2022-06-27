@@ -46,4 +46,5 @@ h6 {
     font-weight: 900;
     color: #0e1133;
     margin: 0px;
+    text-transform: capitalize;
 }

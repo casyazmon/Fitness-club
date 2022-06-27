@@ -1,7 +1,13 @@
+.exercises {
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+
 .exercises-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    cursor: pointer;
 }
 
 .exericse-title {
@@ -26,11 +32,8 @@
     margin-top: 30px;
     border: 1px solid #f8452d;
     text-align: center;
-    box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(227, 23, 23, 0.75);
-    padding: 30px;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .exercise-thumnail {

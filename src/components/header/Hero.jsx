@@ -15,7 +15,9 @@ const Hero = () => {
             <p>Hanky panky lavatory up the duff jolly good cack brolly is chinwag <br/>zonked happy days sloshed.</p>
           </div>
           <div className="hero-btns">
-            <button className="animated-btn hero-ios-btn">Download for iOs</button>
+            <button onClick={()=>{
+                        window.scrollTo({top: 1200, left:100, behavior:"smooth"})
+                        }} className="animated-btn hero-ios-btn">Download for iOs</button>
             <button className="animated-btn hero-android-btn">Download for Android</button>
           </div>
         </div>

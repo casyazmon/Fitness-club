@@ -2,27 +2,25 @@ import React from 'react'
 import './cards.css'
 import CardIcon from '../../assets/icons/1.png'
 
-const Cards = ({data,bodyPart,setBodyPart}) => {
-  console.log(bodyPart);
+const Cards = ({item,bodyPart,setBodyPart}) => {
   return (
     
-    data.map((bodyPart) => (
-        <div key={bodyPart.id || bodyPart} className="card" 
+  
+        <div className="card" 
         onClick={()=>{
-          setBodyPart(bodyPart);
-          window.scrollTo({top: 2000, left:100, behavior:"smooth"})
+          setBodyPart(item);
+          window.scrollTo({top: 1200, left:100, behavior:"smooth"})
         }}>
           <div className="card-container">
               <div className="card-icon">
                   <img src={CardIcon} alt="card icon" />
                   <span>1</span>
               </div>
-              <h4 className='card-title'>{bodyPart}</h4>
-              <p className='card-desc'>Mucker plastered bugger all mate morish are.</p>
+              <h4 className='card-title'>{item}</h4>
           </div>
       </div>
 
-    ))
+    
     
   )
 }

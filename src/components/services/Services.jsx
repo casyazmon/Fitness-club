@@ -2,11 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { exerciseOptions, fetchData } from '../../utils/fetChData';
 import Cards from './Cards'
 import './service.css'
-
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import HorizontalScrollbar from '../HorizontalScrollbar';
 
-const Services = ({bodyPart, setBodyPart}) => {
+const Services = ({exercise, bodyPart, setBodyPart}) => {
 
   const [bodyParts, setBodyParts] = useState([]);
   
@@ -35,7 +34,7 @@ const Services = ({bodyPart, setBodyPart}) => {
           </div>
           <div className="services-card">
            
-              <Cards data = {bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+              <HorizontalScrollbar data = {bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
      
             
             
